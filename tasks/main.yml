@@ -40,7 +40,7 @@
       - kubeadm-{{ kubernetes_packages_version }}
     disable_excludes: all
 
-- name: Install Kubernetes packages
+- name: Install kubelet
   when: install_kubernetes_component_kubelet
   ansible.builtin.dnf:
     name:

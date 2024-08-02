@@ -1,2 +1,49 @@
 ---
-# tasks file for role_remplate
+- name: Set repo version
+  ansible.builtin.set_fact:
+    kubernetes_repo_version: "{{ install_kubernetes_component_version | split('.') }}"
+
+- name: Setup Kubernetes yum repository
+  ansible.builtin.yum_repository:
+    name: kubernetes
+    description: Official Kubernetes yum repository
+    mode: "0644"
+    baseurl:
+      - https://pkgs.k8s.io/core:/stable:/{{ kubernetes_repo_version.0 }}.{{ kubernetes_repo_version.1 }}/rpm
+    enabled: true
+    gpgcheck: true
+    gpgkey:
+      - https://pkgs.k8s.io/core:/stable:/{{ kubernetes_repo_version.0 }}.{{ kubernetes_repo_version.1 }}/rpm/repodata/repomd.xml.key
+    exclude:
+      - kubelet
+      - kubeadm
+      - kubectl
+      - cri-tools
+      - kubernetes-cni
+    state: present
+
+- name: Set packages version
+  ansible.builtin.set_fact:
+    kubernetes_packages_version: "{{ install_kubernetes_component_version | regex_replace('v', '') }}"
+
+- name: Install kubectl
+  when: install_kubernetes_component_kubectl
+  ansible.builtin.dnf:
+    name:
+      - kubectl-{{ kubernetes_packages_version }}
+    disable_excludes: all
+
+- name: Install kubeadm
+  when: install_kubernetes_component_kubeadm
+  ansible.builtin.dnf:
+    name:
+      - kubeadm-{{ kubernetes_packages_version }}
+    disable_excludes: all
+
+- name: Install Kubernetes packages
+  when: install_kubernetes_component_kubelet
+  ansible.builtin.dnf:
+    name:
+      - kubelet-{{ kubernetes_packages_version }}
+    disable_excludes: all
+  notify: Restart kubelet

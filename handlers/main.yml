@@ -1,2 +1,7 @@
 ---
-# handlers file for role_remplate
+- name: Restart kubelet
+  ansible.builtin.systemd_service:
+    name: kubelet
+    state: restarted
+    enabled: true
+    daemon_reload: true

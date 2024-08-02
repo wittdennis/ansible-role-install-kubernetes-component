@@ -6,9 +6,6 @@ galaxy_info:
   role_name: install_kubernetes_component
   license: MIT
   platforms:
-    - name: Rocky
-      versions:
-        - all
     - name: Fedora
       versions:
         - all

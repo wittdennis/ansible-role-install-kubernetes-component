@@ -1,5 +1,5 @@
 ---
 install_kubernetes_component_version: v1.30.3
-install_kubernetes_component_kubectl: true
-install_kubernetes_component_kubeadm: true
-install_kubernetes_component_kubelet: true
+install_kubernetes_component_kubectl: false
+install_kubernetes_component_kubeadm: false
+install_kubernetes_component_kubelet: false

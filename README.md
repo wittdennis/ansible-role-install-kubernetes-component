@@ -6,9 +6,9 @@ Ansible role to install kubernetes components
 
 ```yaml
 install_kubernetes_component_version: v1.30.3
-install_kubernetes_component_kubectl: true
-install_kubernetes_component_kubeadm: true
-install_kubernetes_component_kubelet: true
+install_kubernetes_component_kubectl: false
+install_kubernetes_component_kubeadm: false
+install_kubernetes_component_kubelet: false
 ```
 
 ## Example Playbook
@@ -17,7 +17,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: wittdennis.install_kubernetes_component }
+         - { role: wittdennis.install_kubernetes_component, install_kubernetes_component_kubeadm: true }
 
 ## License
 

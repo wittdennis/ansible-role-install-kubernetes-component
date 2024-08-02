@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.0](https://github.com/wittdennis/ansible-role-install-kubernetes-component/compare/41dc748d5ea45b0b356d6d61e2c3bf701985febc..2.0.0) - 2024-08-02
+#### Documentation
+- update README.md - ([41dc748](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/41dc748d5ea45b0b356d6d61e2c3bf701985febc)) - Dennis Witt
+#### Features
+- set install defaults to false - ([2249675](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/2249675242b9f9a6f469ee09f2f6e99418d68941)) - Dennis Witt
+
+- - -
+
 ## [1.0.1](https://github.com/wittdennis/ansible-role-install-kubernetes-component/compare/18bee3a236c058cc3882f5e9802ff2ac92e71dd5..1.0.1) - 2024-08-02
 #### Bug Fixes
 - set correct task name for kubelet install - ([18bee3a](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/18bee3a236c058cc3882f5e9802ff2ac92e71dd5)) - Dennis Witt

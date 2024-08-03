@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.1](https://github.com/wittdennis/ansible-role-install-kubernetes-component/compare/b21ae86f9b37908b1bef141cf0d1b797d5846fcc..2.0.1) - 2024-08-03
+#### Bug Fixes
+- flush handlers after component install - ([b21ae86](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/b21ae86f9b37908b1bef141cf0d1b797d5846fcc)) - Dennis Witt
+
+- - -
+
 ## [2.0.0](https://github.com/wittdennis/ansible-role-install-kubernetes-component/compare/41dc748d5ea45b0b356d6d61e2c3bf701985febc..2.0.0) - 2024-08-02
 #### Documentation
 - update README.md - ([41dc748](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/41dc748d5ea45b0b356d6d61e2c3bf701985febc)) - Dennis Witt

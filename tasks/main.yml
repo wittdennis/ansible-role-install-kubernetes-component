@@ -47,3 +47,6 @@
       - kubelet-{{ kubernetes_packages_version }}
     disable_excludes: all
   notify: Restart kubelet
+
+- name: Flush handlers
+  ansible.builtin.meta: flush_handlers

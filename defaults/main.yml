@@ -1,5 +1,5 @@
 ---
-install_kubernetes_component_version: v1.33.0 # renovate: datasource=github-tags depName=kubernetes/kubernetes versioning=semver
+install_kubernetes_component_version: v1.33.1 # renovate: datasource=github-tags depName=kubernetes/kubernetes versioning=semver
 install_kubernetes_component_kubectl: false
 install_kubernetes_component_kubeadm: false
 install_kubernetes_component_kubelet: false

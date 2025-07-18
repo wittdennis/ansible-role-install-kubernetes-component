@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.8](https://github.com/wittdennis/ansible-role-install-kubernetes-component/compare/02bad7e6a16551dc2511a23bbc00f602f6790e44..2.0.8) - 2025-07-18
+#### Bug Fixes
+- **(deps)** update dependency kubernetes/kubernetes to v1.33.3 - ([ffdbe51](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/ffdbe51f32311d6c57114e6082790ee05876b4b1)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- **(deps)** update wittdennis/pipelines action to v1.11.27 - ([d3762a3](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/d3762a39540a74dc9af425c082e7e2abdbb356a5)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.26 - ([927d36a](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/927d36aff57c9d3e68eec9b84de243a6495e1ce9)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.25 - ([abe4156](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/abe4156d44f8c8db5ad403404844434747f8d077)) - wittdennis-renovate[bot]
+- **(deps)** update pre-commit hook ansible-community/ansible-lint to v25.6.1 - ([02bad7e](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/02bad7e6a16551dc2511a23bbc00f602f6790e44)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.7](https://github.com/wittdennis/ansible-role-install-kubernetes-component/compare/be8b4a975a21f7a2283343d6605e4da28f9a7ca6..2.0.7) - 2025-06-18
 #### Bug Fixes
 - **(deps)** update dependency kubernetes/kubernetes to v1.33.2 - ([8e9b6e7](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/8e9b6e73709efbbae316e4179c83abde02457ce9)) - wittdennis-renovate[bot]

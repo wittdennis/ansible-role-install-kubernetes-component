@@ -2,6 +2,28 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.20](https://github.com/wittdennis/ansible-role-install-kubernetes-component/compare/62f20846e16efe69a34ae0663e95a2cf57c5905a..2.0.20) - 2026-07-23
+#### Bug Fixes
+- (**deps**) update dependency kubernetes/kubernetes to v1.36.3 - ([3d8891b](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/3d8891b2f36867ddc8bc8f9166573ca567edff97)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.39 - ([b406c24](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/b406c240deb18ba80451fb14b64aeaf0bc04ae30)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.38 - ([2b967cd](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/2b967cdbf68e48eae5fa2f5fd4cbbeb4b8aa94be)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.37 - ([19016af](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/19016af9dc9c80c9e822920a8016d84d68db41fb)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update wittdennis/pipelines action to v2.0.36 - ([eebe017](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/eebe01784eda48e553e9a77a8261c0918e640ba1)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.35 - ([866008c](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/866008cbe945f9f57c6a2bfca57549a32a4769db)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.34 - ([4f67ebd](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/4f67ebd60ed93e231d9f40bf5780f453683cdbcf)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.33 - ([641cfc2](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/641cfc2a57191871166ee7e45ae593f9ec44a4b6)) - wittdennis-renovate[bot]
+- (**deps**) update pre-commit hook ansible-community/ansible-lint to v26.6.0 - ([63d7fd2](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/63d7fd239b5f70863252f0149a8eed06d771e1b1)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.32 - ([d27fe11](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/d27fe1189ea585e4a1481491c2422815a2afa6b7)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.31 - ([885fae4](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/885fae454f5cd07f0746ecf50687e6aa1b724341)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.29 - ([4cbffe7](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/4cbffe7bbed844802c30c93cd000e684715d08a1)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.28 - ([4cede19](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/4cede1966a342ce0ed83ae960231fae4a3448c2d)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.26 - ([6960487](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/69604879848479442c800b41221aabf3f2588324)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.25 - ([62f2084](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/62f20846e16efe69a34ae0663e95a2cf57c5905a)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.19](https://github.com/wittdennis/ansible-role-install-kubernetes-component/compare/67565133f32c3b72f648554a679e7f7e37db035a..2.0.19) - 2026-06-13
 #### Bug Fixes
 - (**deps**) update dependency kubernetes/kubernetes to v1.36.2 - ([80528b6](https://github.com/wittdennis/ansible-role-install-kubernetes-component/commit/80528b6a3e62c1b39efd54804d8cafa54ec54d03)) - wittdennis-renovate[bot]

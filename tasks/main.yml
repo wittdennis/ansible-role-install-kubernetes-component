@@ -4,6 +4,7 @@
     kubernetes_repo_version: "{{ install_kubernetes_component_version | split('.') }}"
 
 - name: Setup Kubernetes yum repository
+  become: true
   ansible.builtin.yum_repository:
     name: kubernetes
     description: Official Kubernetes yum repository
@@ -28,6 +29,7 @@
 
 - name: Install kubectl
   when: install_kubernetes_component_kubectl
+  become: true
   ansible.builtin.dnf:
     name:
       - kubectl-{{ kubernetes_packages_version }}
@@ -35,6 +37,7 @@
 
 - name: Install kubeadm
   when: install_kubernetes_component_kubeadm
+  become: true
   ansible.builtin.dnf:
     name:
       - kubeadm-{{ kubernetes_packages_version }}
@@ -42,6 +45,7 @@
 
 - name: Install kubelet
   when: install_kubernetes_component_kubelet
+  become: true
   ansible.builtin.dnf:
     name:
       - kubelet-{{ kubernetes_packages_version }}
